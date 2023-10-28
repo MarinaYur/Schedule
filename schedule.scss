@@ -1,0 +1,32 @@
+$border : 2px solid grey;
+main {
+    font-size: 1,8rem;
+}
+table, thead {
+    border-collapse: collapse;
+    /*убираем пустые промежутки между ячейками*/
+    border-spacing: 0px;
+    border: 3px solid grey;
+    /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 3px*/
+    margin: 0 auto;
+ }
+ h1 {
+    text-align: center;
+ }
+
+ th {
+    font-size: 18px;
+    border: $border;
+ }
+ 
+ td {
+    font-size: 17px;
+    border: $border;
+    padding: 3px 5px;
+ }
+//  tr {
+//     border: 1px solid grey;
+//  }
+ .between {
+    border: none;
+ }
